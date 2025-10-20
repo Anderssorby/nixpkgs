@@ -7000,6 +7000,8 @@ self: super: with self; {
 
   ilua = callPackage ../development/python-modules/ilua { };
 
+  image = callPackage ../development/python-modules/image { };
+
   image-diff = callPackage ../development/python-modules/image-diff { };
 
   image-go-nord = callPackage ../development/python-modules/image-go-nord { };
@@ -15062,6 +15064,8 @@ self: super: with self; {
 
   python-pam = callPackage ../development/python-modules/python-pam { inherit (pkgs) pam; };
 
+  python-path = callPackage ../development/python-modules/python-path { };
+
   python-periphery = callPackage ../development/python-modules/python-periphery { };
 
   python-picnic-api2 = callPackage ../development/python-modules/python-picnic-api2 { };
@@ -18773,6 +18777,8 @@ self: super: with self; {
 
   trio-asyncio = callPackage ../development/python-modules/trio-asyncio { };
 
+  trio-typing = callPackage ../development/python-modules/trio-typing { };
+
   trio-websocket = callPackage ../development/python-modules/trio-websocket { };
 
   triton = callPackage ../development/python-modules/triton { llvm = pkgs.triton-llvm; };
@@ -18828,6 +18834,8 @@ self: super: with self; {
   tsplib95 = callPackage ../development/python-modules/tsplib95 { };
 
   tt-flash = callPackage ../development/python-modules/tt-flash { };
+
+  tt-smi = callPackage ../development/python-modules/tt-smi { };
 
   tt-tools-common = callPackage ../development/python-modules/tt-tools-common { };
 
