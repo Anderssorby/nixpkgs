@@ -35,7 +35,7 @@ rustPlatform.buildRustPackage {
 
   src = src;
 
-  # RUSTC_BOOTSTRAP = 1;
+  RUSTC_BOOTSTRAP = 1;
 
   # dontInstall = true;
   # dontFixup = true;
